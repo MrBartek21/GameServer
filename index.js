@@ -1,4 +1,4 @@
-/*const express = require('express')
+const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 5000
 
@@ -8,11 +8,11 @@ express()
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
-*/
 
-var http = require('http');
+
+/*var http = require('http');
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
   res.write('Hello World!');
   res.end();
-}).listen(8080);
+}).listen(8080);*/
