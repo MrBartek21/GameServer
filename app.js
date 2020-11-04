@@ -1,7 +1,7 @@
 const http = require('http');
 
-const hostname = 'localhost';
-const port = 8080;
+const hostname = 'server1backup.herokuapp.com';
+const port = 80;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
